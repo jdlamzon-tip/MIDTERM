@@ -1,0 +1,28 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">  
+</head>    
+<body background="https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png">    
+    <h2>Login</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>       
+        <br><br>    
+        Do you have an Account? <a href="/registration">Register Here</a>    
+    </form>     
+</div>    
+</body>    
+</html>    
